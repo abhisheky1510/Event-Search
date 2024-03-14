@@ -1,0 +1,361 @@
+  
+.form{
+    height: auto;
+    backdrop-filter: blur(8px) brightness(110%);
+    background-color: rgba(241, 239, 239, 0.194);
+}
+
+.padder3{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.event_details_1{
+    height: auto;
+    backdrop-filter: blur(8px) brightness(110%);
+    background-color: rgba(241, 239, 239, 0.194);
+}
+
+/*
+span{
+    color: red;
+}
+
+.sticker{
+    color: rgb(122, 191, 191);
+    text-align: left;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.padder{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.padd2{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.adjust{
+    padding-right: 1px !important;
+}
+*/
+
+.padder2{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbarr{
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+}
+
+.red{
+    color: red;
+}
+
+.form-label{
+    color: rgb(122, 191, 191);
+}
+
+.inputfield{
+    margin-top: -5px;
+}
+
+.custom-select{
+    height: 36px;
+}
+
+.dist{
+    margin-bottom: 17px;
+}
+
+option{
+    background-color: rgb(64, 63, 63);
+    color: white;
+}
+
+.key_space{
+    margin-bottom: 17px;
+}
+
+.padd5{
+    margin-bottom: 17px;
+}
+
+.column1{
+    display: inline-block;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+
+.table tbody tr {
+    height: 50px;
+}
+
+td img{
+    height:75px;
+    width:75px;
+}
+
+.table-rounded {
+    border-radius: 15px;
+}
+
+
+.hoverr:hover{
+    cursor: pointer;
+}
+
+.back:hover{
+    cursor: pointer;
+}
+
+.description{
+    color: rgb(157, 255, 232);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.description7{
+    color: rgb(157, 255, 232);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.infoo{
+    color: white;
+    font-size: 15px;
+    margin-top: -11px;  
+}
+
+.infooo{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+
+.info2{
+    margin-top: -11px;
+    margin-bottom: 14px;
+}
+
+.onsale{
+    width: 70px;
+    height: 28px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: rgb(37, 133, 58);
+    margin-top: -12px;
+    margin-bottom: 10px;
+}
+
+.rescheduled{
+    width: 100px;
+    height: 28px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 162, 0);
+    margin-top: -12px;
+    margin-bottom: 10px;
+}
+
+.offsale{
+    width: 70px;
+    height: 28px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: rgb(248, 20, 20);
+    margin-bottom: 10px;
+    margin-top: -12px;
+}
+
+.canceled{
+    width: 90px;
+    height: 28px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-top: -12px;
+}
+
+.postponed{
+    width: 90px;
+    height: 28px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 162, 0);
+    margin-bottom: 10px;
+    margin-top: -12px;
+}
+
+.atag{
+    color: rgb(47, 179, 250)
+}
+
+.col7{
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.mat-mdc-tab-group.mat-background-accent, .mat-mdc-tab-nav-bar.mat-background-accent {
+    --mat-mdc-tab-header-with-background-background-color: rgb(27, 147, 119);
+    /* --mat-mdc-tab-header-with-background-background-color: rgb(240, 31, 114); */
+    --mat-mdc-tab-header-with-background-foreground-color: #fff;
+}
+
+
+.alignerr{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+.abcdef{
+    cursor: pointer;
+}
+
+.text-container {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: white;
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+.text-container2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: white;
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+
+.text-container3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: white;
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+.marginntop{
+    margin-top: 10px;
+}
+
+.show-more{
+    color: rgb(139, 208, 231);
+}
+
+.progress-value-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .progress-value {
+    font-size: 12px;
+    color: #000;
+  }
+
+  .progress-spinner-container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .progress-spinner {
+    display: block;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .progress-spinner-background {
+    fill: transparent;
+    stroke: #ccc;
+    stroke-width: 4;
+  }
+  
+  .progress-spinner-foreground {
+    fill: transparent;
+    stroke: #00bcd4;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-dasharray: 126;
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 0.3s ease;
+  }
+  
+  .progress-spinner-text {
+    font-size: 12px;
+    fill: #000;
+    text-anchor: middle;
+  }
+
+  .mat-mdc-progress-spinner.mat-accent {
+    --mdc-circular-progress-active-indicator-color: rgb(222, 35, 66);
+}
+
+.modal-header{
+    padding-bottom: 0px;
+}
+
+.column7{
+    display: inline-block;
+}
+
+#love:hover{
+    cursor: pointer;
+}
+
+.inlinee{
+    display: inline-block;
+}
+
+.rounder1{
+    border-radius: 20px;
+}
+
+.mat-mdc-tab-group.mat-tabs-with-background.mat-mdc-tab-header .mdc-tab-indicator__content--underline,
+.mat-mdc-tab-group.mat-tabs-with-background.mat-mdc-tab-header .mat-mdc-tab-header-pagination-chevron,
+.mat-mdc-tab-group.mat-tabs-with-background.mat-mdc-tab-header .mat-mdc-focus-indicator::before {
+    border-color: blue !important;
+}
+
+.rounder1{
+    border-radius: 20px;
+}
+/* .infooo span:not(:first-child)::before {
+content: " | ";
+}
+
+.separator::before {
+content: "";
+} */
+
+[mat-align-tabs=center]>.mat-mdc-tab-header .mat-mdc-tab-labels {
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+
+.show-more:hover{
+    cursor: pointer;
+}

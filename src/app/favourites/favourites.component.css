@@ -1,0 +1,9 @@
+.hoverrr:hover{
+    cursor: pointer;
+}
+
+.description{
+    color: rgb(157, 255, 232);
+    font-size: 18px;
+    font-weight: 500;
+}

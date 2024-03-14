@@ -1,0 +1,66 @@
+<div style="padding-left: 10px; padding-right: 10px;">
+  <div *ngIf="likedEvents.length > 0" class="row">
+    <p style="text-align: center;" class="description">List of your favorite events</p>
+  </div>
+  <div *ngIf="likedEvents.length > 0" style="overflow: auto; border-radius: 20px;" class="container">
+    <div class="row">
+      <div class="col-lg-2 col-xl-2">
+
+      </div>
+      <div style="padding-right: 0px; padding-left: 0px;" class="col-lg-8 col-xl-8">
+        <table style="overflow: hidden; border-radius: 20px; margin-bottom: 0px;" class="table table-hover">
+          <thead style="background-color: white;">
+            <tr>
+              <th style="text-align: center;" class="col-sm-1 col-1 col-lg-1 col-xl-1">#</th>
+              <th style="text-align: center;" class="col-sm-2 col-2 col-lg-2 col-xl-2">Date</th>
+              <th style="text-align: center;" class="col-sm-3 col-3 col-lg-3 col-xl-3">Event</th>
+              <th style="text-align: center;" class="col-sm-2 col-2 col-lg-2 col-xl-2">Venue</th>
+              <th style="text-align: center;" class="col-sm-2 col-2 col-lg-2 col-xl-2">Genre</th>
+              <th style="text-align: center;" class="col-sm-2 col-2 col-lg-2 col-xl-2">Favorite</th>
+            </tr>
+          </thead>
+          <tbody style="background-color: white;">
+            <tr *ngFor="let event of likedEvents; let i = index;">
+              <td style="text-align: center;"><b>{{i+1}}</b></td>
+              <td style="text-align: center;">{{ event.date }}</td>
+              <td style="text-align: center;">{{ event.name }}</td>
+              <td style="text-align: center;">{{ event.venue }}</td>
+              <td style="text-align: center;">{{ event.genre }}</td>
+              <td (click)="deleter(event.id)" class="hoverrr" style="text-align: center;"><svg class
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z" />
+                </svg>
+              </td>
+
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-lg-2 col-xl-2">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div *ngIf="likedEvents.length == 0">
+  <div class="container">
+    <div style="margin-top: 65px; margin-bottom: 65px;" class="row">
+      <div class="col-sm-2 col-2 col-lg-3 col-xl-3 ">
+
+      </div>
+      <div class="col-sm-8 col-8 col-lg-6 col-xl-6 ">
+        <p
+          style="color: red; background-color: white; margin-top: 5px; margin-bottom: 5px; border-radius: 25px; text-align: center;">
+          <b>No favorite events to show</b>
+        </p>
+      </div>
+      <div class="col-sm-2 col-2 col-lg-3 col-xl-3 ">
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    background-image: url('./app/background.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} /*w3-schools how to set background image to screen size*/
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+[mat-align-tabs=center]>.mat-mdc-tab-header .mat-mdc-tab-labels {
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+
+.mat-mdc-tab-group.mat-tabs-with-background>.mat-mdc-tab-header .mdc-tab-indicator__content--underline,
+.mat-mdc-tab-group.mat-tabs-with-background>.mat-mdc-tab-header .mat-mdc-tab-header-pagination-chevron,
+.mat-mdc-tab-group.mat-tabs-with-background>.mat-mdc-tab-header .mat-mdc-focus-indicator::before {
+    border-color:  #3f51b5 !important;
+}

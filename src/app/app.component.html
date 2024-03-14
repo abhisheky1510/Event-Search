@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid navbarr justify-content-end">
+    <div style="margin-right: -12px;" class="d-flex">
+      <a routerLink="/search" [class.active]="isSearchActive" style="text-decoration: none;">
+        <button (click)="search_border()" id="search" [class.border-white]="isSearchActive" style="border-width: 1.5px; border-radius: 12px; margin-right: 1px !important;" class="btn me-2 text-white" type="button">Search</button>
+      </a>
+      <a routerLink="/favorites" [class.active]="!isSearchActive" style="text-decoration: none;">
+        <button style="border-width: 1.5px; border-radius: 12px;" id="fav" [class.border-white]="!isSearchActive" (click)="fav_border()" class="btn me-2 text-white" type="button">Favorites</button>
+      </a>
+    </div>
+  </div>
+</nav>
+
+  
+<router-outlet></router-outlet>
